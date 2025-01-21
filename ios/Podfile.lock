@@ -1,0 +1,231 @@
+PODS:
+  - AppAuth (1.6.2):
+    - AppAuth/Core (= 1.6.2)
+    - AppAuth/ExternalUserAgent (= 1.6.2)
+  - AppAuth/Core (1.6.2)
+  - AppAuth/ExternalUserAgent (1.6.2):
+    - AppAuth/Core
+  - barcode_scanner (1.0.0):
+    - Flutter
+    - ScanbotBarcodeScannerSDK (= 3.6.0)
+  - Firebase/Auth (10.20.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 10.20.0)
+  - Firebase/CoreOnly (10.20.0):
+    - FirebaseCore (= 10.20.0)
+  - firebase_auth (4.17.4):
+    - Firebase/Auth (= 10.20.0)
+    - firebase_core
+    - Flutter
+  - firebase_core (2.25.4):
+    - Firebase/CoreOnly (= 10.20.0)
+    - Flutter
+  - FirebaseAppCheckInterop (10.21.0)
+  - FirebaseAuth (10.20.0):
+    - FirebaseAppCheckInterop (~> 10.17)
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+    - RecaptchaInterop (~> 100.0)
+  - FirebaseCore (10.20.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.12)
+    - GoogleUtilities/Logger (~> 7.12)
+  - FirebaseCoreInternal (10.21.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - Flutter (1.0.0)
+  - flutter_barcode_scanner (2.0.0):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - google_maps_flutter_ios (0.0.1):
+    - Flutter
+    - GoogleMaps (< 9.0)
+  - google_sign_in_ios (0.0.1):
+    - Flutter
+    - FlutterMacOS
+    - GoogleSignIn (~> 7.0)
+  - GoogleMaps (8.4.0):
+    - GoogleMaps/Maps (= 8.4.0)
+  - GoogleMaps/Base (8.4.0)
+  - GoogleMaps/Maps (8.4.0):
+    - GoogleMaps/Base
+  - GoogleSignIn (7.0.0):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (< 3.0, >= 1.3)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.12.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.12.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.12.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.12.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.12.0)"
+  - GoogleUtilities/Reachability (7.12.0):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (2.0.0):
+    - AppAuth/Core (~> 1.6)
+    - GTMSessionFetcher/Core (< 4.0, >= 1.5)
+  - GTMSessionFetcher/Core (3.3.1)
+  - location (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - PromisesObjC (2.3.1)
+  - RecaptchaInterop (100.0.0)
+  - restart_app (0.0.1):
+    - Flutter
+  - ScanbotBarcodeScannerSDK (3.6.0)
+  - Stripe (23.22.1):
+    - StripeApplePay (= 23.22.1)
+    - StripeCore (= 23.22.1)
+    - StripePayments (= 23.22.1)
+    - StripePaymentsUI (= 23.22.1)
+    - StripeUICore (= 23.22.1)
+  - stripe_ios (0.0.1):
+    - Flutter
+    - Stripe (~> 23.22.0)
+    - StripeApplePay (~> 23.22.0)
+    - StripeFinancialConnections (~> 23.22.0)
+    - StripePayments (~> 23.22.0)
+    - StripePaymentSheet (~> 23.22.0)
+    - StripePaymentsUI (~> 23.22.0)
+  - StripeApplePay (23.22.1):
+    - StripeCore (= 23.22.1)
+  - StripeCore (23.22.1)
+  - StripeFinancialConnections (23.22.1):
+    - StripeCore (= 23.22.1)
+    - StripeUICore (= 23.22.1)
+  - StripePayments (23.22.1):
+    - StripeCore (= 23.22.1)
+    - StripePayments/Stripe3DS2 (= 23.22.1)
+  - StripePayments/Stripe3DS2 (23.22.1):
+    - StripeCore (= 23.22.1)
+  - StripePaymentSheet (23.22.1):
+    - StripeApplePay (= 23.22.1)
+    - StripeCore (= 23.22.1)
+    - StripePayments (= 23.22.1)
+    - StripePaymentsUI (= 23.22.1)
+  - StripePaymentsUI (23.22.1):
+    - StripeCore (= 23.22.1)
+    - StripePayments (= 23.22.1)
+    - StripeUICore (= 23.22.1)
+  - StripeUICore (23.22.1):
+    - StripeCore (= 23.22.1)
+  - Toast (4.1.0)
+
+DEPENDENCIES:
+  - barcode_scanner (from `.symlinks/plugins/barcode_scanner/ios`)
+  - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_barcode_scanner (from `.symlinks/plugins/flutter_barcode_scanner/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
+  - google_sign_in_ios (from `.symlinks/plugins/google_sign_in_ios/darwin`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - restart_app (from `.symlinks/plugins/restart_app/ios`)
+  - stripe_ios (from `.symlinks/plugins/stripe_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - Firebase
+    - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreInternal
+    - GoogleMaps
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - PromisesObjC
+    - RecaptchaInterop
+    - ScanbotBarcodeScannerSDK
+    - Stripe
+    - StripeApplePay
+    - StripeCore
+    - StripeFinancialConnections
+    - StripePayments
+    - StripePaymentSheet
+    - StripePaymentsUI
+    - StripeUICore
+    - Toast
+
+EXTERNAL SOURCES:
+  barcode_scanner:
+    :path: ".symlinks/plugins/barcode_scanner/ios"
+  firebase_auth:
+    :path: ".symlinks/plugins/firebase_auth/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  Flutter:
+    :path: Flutter
+  flutter_barcode_scanner:
+    :path: ".symlinks/plugins/flutter_barcode_scanner/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  google_maps_flutter_ios:
+    :path: ".symlinks/plugins/google_maps_flutter_ios/ios"
+  google_sign_in_ios:
+    :path: ".symlinks/plugins/google_sign_in_ios/darwin"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  restart_app:
+    :path: ".symlinks/plugins/restart_app/ios"
+  stripe_ios:
+    :path: ".symlinks/plugins/stripe_ios/ios"
+
+SPEC CHECKSUMS:
+  AppAuth: 3bb1d1cd9340bd09f5ed189fb00b1cc28e1e8570
+  barcode_scanner: f02935fb260e0018d783fffb6555d478ec57fc26
+  Firebase: 10c8cb12fb7ad2ae0c09ffc86cd9c1ab392a0031
+  firebase_auth: 29a10d4129d53aa690c10dbd838ed1a059ef0c9b
+  firebase_core: a46c312d8bae4defa3d009b2aa7b5b413aeb394e
+  FirebaseAppCheckInterop: 69fc7d8f6a1cbfa973efb8d1723651de30d12525
+  FirebaseAuth: 9c5c400d2c3055d8ae3a0284944c86fa95d48dac
+  FirebaseCore: 28045c1560a2600d284b9c45a904fe322dc890b6
+  FirebaseCoreInternal: 43c1788eaeee9d1b97caaa751af567ce11010d00
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_barcode_scanner: 7a1144744c28dc0c57a8de7218ffe5ec59a9e4bf
+  fluttertoast: 31b00dabfa7fb7bacd9e7dbee580d7a2ff4bf265
+  google_maps_flutter_ios: f135b968a67c05679e0a53538e900b5c174b0d99
+  google_sign_in_ios: 1bfaf6607b44cd1b24c4d4bc39719870440f9ce1
+  GoogleMaps: 8939898920281c649150e0af74aa291c60f2e77d
+  GoogleSignIn: b232380cf495a429b8095d3178a8d5855b42e842
+  GoogleUtilities: 0759d1a57ebb953965c2dfe0ba4c82e95ccc2e34
+  GTMAppAuth: 99fb010047ba3973b7026e45393f51f27ab965ae
+  GTMSessionFetcher: 8a1b34ad97ebe6f909fb8b9b77fba99943007556
+  location: 3a2eed4dd2fab25e7b7baf2a9efefe82b512d740
+  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
+  PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
+  RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
+  restart_app: 806659942bf932f6ce51c5372f91ce5e81c8c14a
+  ScanbotBarcodeScannerSDK: fac0c9f5da6a2a9c3c08d9bfcca9fc8e93d2b570
+  Stripe: b65e9f748f8f51b51e015b0d72f5474dc0708788
+  stripe_ios: 433385aa051f8965915d495744946ee5a5d657db
+  StripeApplePay: 4a2fef6cd4e1e9b2c0849919fc7b3a9c5c3684b1
+  StripeCore: e1f6cd91d1487c0f6b5db81b42aec860420f75c9
+  StripeFinancialConnections: d223a44613e6982cedd552c5950edc9b4901c90a
+  StripePayments: 76144e9e6b5fee859954238a175f859043562659
+  StripePaymentSheet: a25d920bb3bb5e2580696476482dc7df9cb5e4e2
+  StripePaymentsUI: 66088abec88754bbdd522ef227dfdbb2265a653e
+  StripeUICore: b193c7d35e9cd1b04bc9ed4a6fb8c548fcee83fa
+  Toast: ec33c32b8688982cecc6348adeae667c1b9938da
+
+PODFILE CHECKSUM: 9fcd9c8b5a5b1d9c10ba3ebd1e8b13237102f66c
+
+COCOAPODS: 1.15.2
