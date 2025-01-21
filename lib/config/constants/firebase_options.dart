@@ -48,23 +48,4 @@ class DefaultFirebaseOptions {
         );
     }
   }
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBlSSkR9VAd6uXHWTD402a-KYeRvYDyCHs',
-    appId: '1:205043149452:android:f2dc81694ca0109a5b29a9',
-    messagingSenderId: '205043149452',
-    projectId: 'food-ae2d5',
-    storageBucket: 'food-ae2d5.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA1dCpqTdFQiZOPQpU7OJNINASOVOR8djs',
-    appId: '1:653901962727:ios:6c990c578786dca0b43142',
-    messagingSenderId: '653901962727',
-    projectId: 'parkware-alpha',
-    storageBucket: 'parkware-alpha.appspot.com',
-    iosClientId:
-        '653901962727-sl2ltl91qqkf0c5n534vnottq1vg3gdp.apps.googleusercontent.com',
-    iosBundleId: 'com.example.parkwareAlpha',
-  );
 }
